@@ -1,0 +1,90 @@
+
+    body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/clima.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    }
+  
+  .container {
+   
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+  
+  .title {
+   
+    font-weight: bold;
+    color: #ffffff; /* Color de texto azul */
+    margin-bottom: 32px;
+    }
+  
+  .form {
+    display: grid;
+    gap: 16px;
+    width: 100%;
+     }
+  
+  .textField {
+    width: 100%;
+   
+     }
+  
+  .loadingButton {
+    padding: 12px 24px; /* Aumento del padding para botones */
+    font-weight: bold;
+    
+     }
+  
+  .weatherCard {
+    margin-top: 32px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #8ce7bd44; /* Fondo para la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+     }
+
+  .weatherCity {
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #000000; /* Color de texto azul */
+     }
+  
+  .weatherIcon {
+    margin-bottom: 16px;
+    width: 100px;
+    height: 100px;
+    }
+  
+  .weatherTemp {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000; /* Color de texto azul */
+    }
+  
+  .weatherCondition {
+    color: #000000; /* Color de texto azul */
+    }
+  
+  .footer {
+    margin-top: 32px;
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+    color: #0206ff; /* Color de texto gris */
+    }
+  
+  .apiLink {
+    text-decoration: none;
+    color: #0f101b; /* Color de texto azul */
+    }
